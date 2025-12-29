@@ -1,0 +1,121 @@
+/* ================================
+   WHY CHOOSE US SECTION
+================================ */
+
+.why-choose-section {
+  background: #ffffff;
+  padding: 100px 20px;
+}
+
+.why-choose-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ---------- Section Header ---------- */
+
+.section-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 70px;
+}
+
+.section-label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #6366f1, #8b5cf6);
+  background-clip: text;          /* standard */
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+}
+
+.section-description {
+  font-size: 16px;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+/* ---------- Advantages List ---------- */
+
+.advantages-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* Each row */
+.advantage-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 28px;
+  border-radius: 16px;
+  background: #f9fafb;
+  transition: all 0.3s ease;
+}
+
+.advantage-row:hover {
+  background: #f3f4f6;
+  transform: translateY(-4px);
+}
+
+/* Icon box */
+.advantage-icon-box {
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.advantage-icon {
+  font-size: 26px;
+}
+
+/* Content */
+.advantage-content h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 6px;
+}
+
+.advantage-content p {
+  font-size: 15px;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 32px;
+  }
+
+  .advantage-row {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .advantage-icon-box {
+    width: 48px;
+    height: 48px;
+  }
+}
